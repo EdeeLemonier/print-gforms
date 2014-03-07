@@ -9,6 +9,6 @@ There are 3 pieces of code:
 
 1 - Insert the php at the bottom of your functions.php file<br />
 2 - Insert the css at the very bottom of your style.css file. Monkey with it as you see fit.<br />
-3 - If you want to exclude portions of the body text from being printed, wrap the text you want excluded in the div tag.
+3 -  Since I'm using this for a donation form with a lot of extra text on it, I only want to show the mailing address (which is part of the body), but not all the extra stuff about the org. To exclude portions of the body text from being printed, wrap it in <div class="no-print">.
 
 Enjoy!
