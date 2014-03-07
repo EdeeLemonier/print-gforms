@@ -1,3 +1,5 @@
+<?php
+
 //*Add print button & functionality to GravityForms
 add_filter( 'gform_submit_button', 'theme_t_wp_submit_button', 10, 2 );
 function theme_t_wp_submit_button( $button, $form ){
