@@ -1,0 +1,28 @@
+@media only print {
+	header {
+		display: none;
+	}
+	
+	aside {
+		display: none;
+	}
+	
+	footer {
+		display: none;
+	}
+
+	.no-print {
+		display: none;
+	}
+
+}
+
+.print-button {
+	margin-left: 10px;
+}
+
+.home .print-button,
+.sidebar .print-button,
+.footer .print-button {
+	display: none;
+}
